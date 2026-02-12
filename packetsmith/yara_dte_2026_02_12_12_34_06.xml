@@ -1,0 +1,671 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>PacketSmith</Author>
+<Description>pcap: eternalblue-success-unpatched-win7.pcap</Description>
+<LastAuthor>PacketSmith</LastAuthor>
+<Created>2026-02-12T12:34:06Z</Created>
+<LastSaved>2026-02-12T12:34:06Z</LastSaved>
+<Keywords>pcap, packet capture, yara scanning</Keywords>
+<Title>Yara PCAP Detection Report: PacketSmith</Title>
+<Company>Netomize</Company>
+<Version>5.0.0</Version>
+</DocumentProperties>
+ <Worksheet ss:Name="Frames">
+  <Table>
+   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">raw_ts</Data></Cell>
+    <Cell><Data ss:Type="String">ts</Data></Cell>
+    <Cell><Data ss:Type="String">ip_ver</Data></Cell>
+    <Cell><Data ss:Type="String">src_ip</Data></Cell>
+    <Cell><Data ss:Type="String">src_port</Data></Cell>
+    <Cell><Data ss:Type="String">dst_ip</Data></Cell>
+    <Cell><Data ss:Type="String">dst_port</Data></Cell>
+    <Cell><Data ss:Type="String">tproto</Data></Cell>
+    <Cell><Data ss:Type="String">sha-1</Data></Cell>
+    <Cell><Data ss:Type="String">sha-256</Data></Cell>
+    <Cell><Data ss:Type="String">md5</Data></Cell>
+    <Cell><Data ss:Type="String">size</Data></Cell>
+    <Cell><Data ss:Type="String">entropy</Data></Cell>
+    <Cell><Data ss:Type="String">rule</Data></Cell>
+    <Cell><Data ss:Type="String">total_fired</Data></Cell>
+    <Cell><Data ss:Type="String">offset</Data></Cell>
+    <Cell><Data ss:Type="String">length</Data></Cell>
+    <Cell><Data ss:Type="String">mdata</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369385340</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.385340 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">e230f39f3448e2893cf48546b537133f5ab96d44</Data></Cell>
+    <Cell><Data ss:Type="String">0e94cffdecdb532624a4598a4998a43711ead480af17b0013fde8e2f8dd97670</Data></Cell>
+    <Cell><Data ss:Type="String">94325ab0b1e6a63b0a1156829aed7db7</Data></Cell>
+    <Cell><Data ss:Type="Number">2974</Data></Cell>
+    <Cell><Data ss:Type="Number">6.116190</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369385571</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.385571 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">a23972fa5ec5fe4382abdc2e799998f2ad5d5965</Data></Cell>
+    <Cell><Data ss:Type="String">b31a6e4165773d7379d1bd2bd90c2b0022eb786ef052bc0d7c38cda14d49c884</Data></Cell>
+    <Cell><Data ss:Type="String">513a4fa184e90b644ba3d6c0196616d4</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.095684</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369385811</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.385811 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">bdaacb520db84a4a33fec6be1c7b5edd09034b48</Data></Cell>
+    <Cell><Data ss:Type="String">0d8b530aedfcde4c6089994490e6ada74a82b070c56f82aba39466a0a149d89b</Data></Cell>
+    <Cell><Data ss:Type="String">772bde8ee2f2a9fd0cb37aaae3ea6e60</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.087548</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369385964</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.385964 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">5aa0124ba28987d9294f7a1f3cde82a954645a54</Data></Cell>
+    <Cell><Data ss:Type="String">96fb201b6d3e2819ab8adf730d9923f05e259b787fdda5e1712b8dbc7ba4ff03</Data></Cell>
+    <Cell><Data ss:Type="String">d126a1d0c16559e9b811acc3f8eeb6bb</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.092149</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369386123</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.386123 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">50ff6e5b39519412d262dd6a42bb084e4dbd1936</Data></Cell>
+    <Cell><Data ss:Type="String">1772ebc4517ced022de73f50205abd2c9ff62b4b6a5f8ff921b5f76c483544cd</Data></Cell>
+    <Cell><Data ss:Type="String">b69e8dd19fd0aace239dbf200c190b10</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.094924</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369386224</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.386224 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">b733a75cb90d7ced3b3f08c4972b8ec8607bb4cd</Data></Cell>
+    <Cell><Data ss:Type="String">29f5ccb6a9cb02a3be39b95a5875c8234d08e4c7fbbd59d07f5654699312df05</Data></Cell>
+    <Cell><Data ss:Type="String">4cbb9d6fd96d0a5718a959931f3d0e1f</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.092591</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369386349</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.386349 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">24a1b8cf9431aa0eb36c53ed081cbeff838333c7</Data></Cell>
+    <Cell><Data ss:Type="String">8dda1a99573777510b40f57fbdbc70da65959cd5d134b686d4a7e4cc2aaadb06</Data></Cell>
+    <Cell><Data ss:Type="String">3fe003d340965fe77cba778d524f48d8</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.093143</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369386460</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.386460 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">ec8deed3b956b3ad6941beaf961bb59cd8b5dfd6</Data></Cell>
+    <Cell><Data ss:Type="String">21921faf87c21b46a275a7acaeac1d59cd6e2e589bcccb965afeb40f7e178f0d</Data></Cell>
+    <Cell><Data ss:Type="String">d3cdf6f882dda0a9fc1dd609c46ebca0</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.095505</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369386631</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.386631 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">e53bf4389872a1f5ab88b21de96100f4e232d023</Data></Cell>
+    <Cell><Data ss:Type="String">73ad7d5393fc11119638d642361303982492a8f339d7293bb402c35186c07028</Data></Cell>
+    <Cell><Data ss:Type="String">34fb2ab117a50f0cea9c3a3ae6cf90b2</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.095954</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369386755</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.386755 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">3189af44cae86eee01579c8fcb9f9bc235200b93</Data></Cell>
+    <Cell><Data ss:Type="String">fd1ca44d726400135890060b3f784550e6b0c2e2c4d9610cd03682213df60cb1</Data></Cell>
+    <Cell><Data ss:Type="String">fd06c9fd149f5a009c32584b4d34610a</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.094365</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369386929</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.386929 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">88b1a7c3f6f125969b7179690148a852de600925</Data></Cell>
+    <Cell><Data ss:Type="String">7f0cf0853eaa65ab0f7642bae6ec60ccb9c90b347071cc5b42eed8562cd0af7b</Data></Cell>
+    <Cell><Data ss:Type="String">cf0ce37ddee7b945936c1dc187ccdc6f</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.092815</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369387071</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.387071 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">d972e6fe061af2548ade375f90225ba81a16cc84</Data></Cell>
+    <Cell><Data ss:Type="String">f3ddb4c5096a8bf96cad74a72546608e31987a1b21837ed918cd83bf078dadb2</Data></Cell>
+    <Cell><Data ss:Type="String">487c8b6b8fef975dbef77f6ff1ba4b00</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.092389</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369387114</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.387114 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">673118cd757619786ba275a7a086b17f30920fc3</Data></Cell>
+    <Cell><Data ss:Type="String">fdd114f3771c14e6289d00c277bbb6c8776a1f879d2589dc03b94008a2e9a623</Data></Cell>
+    <Cell><Data ss:Type="String">6de0e76449df40ae509dff6f4b7647e3</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.094602</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363369387237</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:49.387237 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">576b406491c00e8097358780652515fe1f7576aa</Data></Cell>
+    <Cell><Data ss:Type="String">bf892a6e6f0236d45513a74600e10cecf4c04fbbce859d9faa4d5918f15164ae</Data></Cell>
+    <Cell><Data ss:Type="String">9687d0dc846a5dacb89c35af01461b40</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.087030</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">163</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363370415457</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:22:50.415457 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51112</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">195628ba8de50d3dd8123a61c54c302c7d254a7b</Data></Cell>
+    <Cell><Data ss:Type="String">9c47b4c94837894be6b341ed603b69f3cd7e0f8c81c2d01b26fc1f166509c4e0</Data></Cell>
+    <Cell><Data ss:Type="String">3db7c3bd6469f8ab241b21b1213c71d1</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.125968</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">276</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387464814</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.464814 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">a8774dbdaf93e4a21bbb8f3f4e4101f8a2312d46</Data></Cell>
+    <Cell><Data ss:Type="String">8c569245035f063cd933cdd1268e5944d5da0d90c9361459afc162a44ccf0bbe</Data></Cell>
+    <Cell><Data ss:Type="String">c74e72b13689a7ab2c791a793623f9ea</Data></Cell>
+    <Cell><Data ss:Type="Number">2974</Data></Cell>
+    <Cell><Data ss:Type="Number">6.124326</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">279</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387465141</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.465141 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">d3f33eaec0f81beb8148628cd799e97f487cd7da</Data></Cell>
+    <Cell><Data ss:Type="String">ad1102bfbfcdda2202a1a79fffd489183166ab15da6e30a34223e7473533f594</Data></Cell>
+    <Cell><Data ss:Type="String">c4e453bb4c46dbf3e1c96aee4b630c95</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.097225</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">281</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387465155</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.465155 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">02a60ede663cf31a0f1ff95ba2988f6c5ae7afad</Data></Cell>
+    <Cell><Data ss:Type="String">465d72e8893cda66fdd73ca4c863cf0ada1538f9872b97cf0ce32c37d9b1459c</Data></Cell>
+    <Cell><Data ss:Type="String">991dbe58209f573b0768cba5c4ad6338</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.097402</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">283</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467094</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467094 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">9b7b9ecd115396a4f8a386742b7d9eb82a7b5d3e</Data></Cell>
+    <Cell><Data ss:Type="String">cdcd73267eedb3f558e48506d9a63274fc795e37ab7547e28d7da3aca1829a06</Data></Cell>
+    <Cell><Data ss:Type="String">49298a58e22d14282c60ff89d681f7ad</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.096659</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">285</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467102</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467102 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">0ea75f9388fbcb8a88377d9f346a62ed6114e2ab</Data></Cell>
+    <Cell><Data ss:Type="String">df852a0f9ae12cba86b6c625a566fa1d2a54094cde1b864d750eab028c761967</Data></Cell>
+    <Cell><Data ss:Type="String">69520e82b4a31b29380ba46b811ddd3f</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.092843</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">287</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467113</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467113 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">cfa5ee83e232b8e4f23fc9e91efcd7eb51d5ca60</Data></Cell>
+    <Cell><Data ss:Type="String">42c007b864c56266330773012c35059d05afc4eb0635f5e2ac4a6190d3e103b1</Data></Cell>
+    <Cell><Data ss:Type="String">5fa2e100a2e61e817bb8881f17a29844</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.094376</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">289</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467120</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467120 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">51e3aecf8fdbd1c62cf6b6d501aa9aaaf8f33b4b</Data></Cell>
+    <Cell><Data ss:Type="String">679014053a3521bcb33a7ac2bd1cd766a6ffe567d13654cf91be6988083d2180</Data></Cell>
+    <Cell><Data ss:Type="String">4345e7842dd91744e37487dac78df108</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.093345</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">291</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467134</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467134 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">3680386ea75c20ee700be1c99384246f1d8ba660</Data></Cell>
+    <Cell><Data ss:Type="String">5e3a0b269ab14016476196808e1744e210df44b4bbe7a779edbae2c0e3786cfa</Data></Cell>
+    <Cell><Data ss:Type="String">a8065a34796ecfc95d672d351d85fde7</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.096276</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">293</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467140</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467140 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">2ab69b37d7502eb0fb862fc5a6d68637eef6575e</Data></Cell>
+    <Cell><Data ss:Type="String">71703d25dc5ba20fbdc9f4672033e3eafa7384688bf7153340d9073be83bb062</Data></Cell>
+    <Cell><Data ss:Type="String">4b6eb5f3fa7c4b99111341c2143c746d</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.091795</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">295</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467147</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467147 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">ab141922d3e1f9c79134e44018944802d606dafe</Data></Cell>
+    <Cell><Data ss:Type="String">7e86c457ec76d6d84ec658ba1b147d6efc1ab90d8fec253b01614aa3c7ee167e</Data></Cell>
+    <Cell><Data ss:Type="String">de4a659f28c5136d5a4e943ac8c77190</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.093595</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">297</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467153</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467153 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">c965cd2455c005b7532071833b586743dc60a136</Data></Cell>
+    <Cell><Data ss:Type="String">eef53cb268828b98bf4b9bc028d286ac4d120a8badc5f1cbd182b5f64239f59b</Data></Cell>
+    <Cell><Data ss:Type="String">789b98fb47d42466b6d3d063d72a5038</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.095322</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">299</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467159</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467159 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">21f90bebe3d22dc554271e06f4020cc824450ba8</Data></Cell>
+    <Cell><Data ss:Type="String">691c618c2cd666604c3af946c7774ea07aadda928b518cf4171c00aef81211f5</Data></Cell>
+    <Cell><Data ss:Type="String">bbf668bedeb382ebd5d1c67fe19a1d6a</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.097193</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">301</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467166</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467166 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">86d2c03e70fc8fe3e4e7878e3285ec2049930047</Data></Cell>
+    <Cell><Data ss:Type="String">359bd51988bde1175b15318caa7b41fd5ab5807e5bb9e8dd5e73eee29d923d0f</Data></Cell>
+    <Cell><Data ss:Type="String">324460ce38784f8398c243ac655c3c7b</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.096087</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">303</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363387467172</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:07.467172 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">53ae158ac342b5124219257a503219c4bf17d59b</Data></Cell>
+    <Cell><Data ss:Type="String">14964e9da09c34b17bc39d205605a07bd32133cca371f8b96267a7b9f3fb1024</Data></Cell>
+    <Cell><Data ss:Type="String">5012a35b7e31375c79c66a980e82147b</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.094977</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">446</Data></Cell>
+    <Cell><Data ss:Type="Number">1492363388505384</Data></Cell>
+    <Cell><Data ss:Type="String">2017-04-16 17:23:08.505384 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.204</Data></Cell>
+    <Cell><Data ss:Type="Number">51133</Data></Cell>
+    <Cell><Data ss:Type="String">192.168.198.203</Data></Cell>
+    <Cell><Data ss:Type="Number">445</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">4898f88e06dec03a5c02dd6d9c1e3904731c0063</Data></Cell>
+    <Cell><Data ss:Type="String">9b44995a7239569e84f99bcd3704eebbab404f536282bb81c29176f1e6008199</Data></Cell>
+    <Cell><Data ss:Type="String">bed43ec948b811f287800f42832cb86f</Data></Cell>
+    <Cell><Data ss:Type="Number">4207</Data></Cell>
+    <Cell><Data ss:Type="Number">6.126822</Data></Cell>
+    <Cell><Data ss:Type="String">smb_memory_corruption_vuln_cve_2017_0144_v3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">\xffSMB3\x00\x00\x00\x00</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
