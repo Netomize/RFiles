@@ -1,6 +1,6 @@
 {
     "pcap": {
-        "filename": "arpa_ipv6_reverse_dns.pcap"
+        "filename": "arpa_ip6_reverse_dns_a_record.pcap"
     },
     "frames": {
         "total": 1,
