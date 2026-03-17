@@ -1,0 +1,72 @@
+{
+    "pcap": {
+        "filename": "arpa_ipv6_reverse_dns.pcap"
+    },
+    "frames": {
+        "total": 1,
+        "frames": [
+            {
+                "id": 2,
+                "raw_ts": 1773673660604379,
+                "ts": "2026-03-16 15:07:40.604379 UTC",
+                "ip_ver": "IP4",
+                "src_ip": "192.168.60.2",
+                "src_port": "53",
+                "dst_ip": "192.168.60.133",
+                "dst_port": "62573",
+                "tproto": "UDP",
+                "result": {
+                    "raw": {
+                        "sha-1": "01e0e007f904fbc80884fa5dd205c552222bda6c",
+                        "sha-256": "96eb197dae55e9e658daf3feadc21951e071c69c95bc1f36c5adce168ea56d58",
+                        "md5": "ae8f11aa13c2e8376ee3fa4b5514335b",
+                        "size": 116,
+                        "entropy": 4.6345238,
+                        "total_rules_fired": 1,
+                        "rules": [
+                            {
+                                "name": "ip6_arpa_tld_dns_rsp_pkt_malicious",
+                                "total": 0,
+                                "offset": [],
+                                "length": [],
+                                "mdata": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "ICMPv4": {
+        "total": 0,
+        "ICMPv4": []
+    },
+    "ICMPv6": {
+        "total": 0,
+        "ICMPv6": []
+    },
+    "TCP-IPv4": {
+        "total": 0,
+        "TCP-IPv4": []
+    },
+    "TCP-IPv6": {
+        "total": 0,
+        "TCP-IPv6": []
+    },
+    "UDP-IPv4": {
+        "total": 0,
+        "UDP-IPv4": []
+    },
+    "UDP-IPv6": {
+        "total": 0,
+        "UDP-IPv6": []
+    },
+    "TCP_Packets": {
+        "total": 0,
+        "TCP_Packets": []
+    },
+    "UDP_Packets": {
+        "total": 0,
+        "UDP_Packets": []
+    }
+}
