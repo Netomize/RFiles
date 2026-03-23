@@ -1,0 +1,608 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Author>PacketSmith</Author>
+<Description>pcap: eb523f6b0f306ce9fb68adeadac41d2c25b720075f03c75bd3611584dee28cf9_snappyclient.pcap</Description>
+<LastAuthor>PacketSmith</LastAuthor>
+<Created>2026-03-23T17:11:08Z</Created>
+<LastSaved>2026-03-23T17:11:08Z</LastSaved>
+<Keywords>pcap, packet capture, yara scanning</Keywords>
+<Title>Yara PCAP Detection Report: PacketSmith</Title>
+<Company>Netomize</Company>
+<Version>5.1.0</Version>
+</DocumentProperties>
+ <Worksheet ss:Name="Frames">
+  <Table>
+   <Row>
+    <Cell><Data ss:Type="String">id</Data></Cell>
+    <Cell><Data ss:Type="String">raw_ts</Data></Cell>
+    <Cell><Data ss:Type="String">ts</Data></Cell>
+    <Cell><Data ss:Type="String">ip_ver</Data></Cell>
+    <Cell><Data ss:Type="String">src_ip</Data></Cell>
+    <Cell><Data ss:Type="String">src_port</Data></Cell>
+    <Cell><Data ss:Type="String">dst_ip</Data></Cell>
+    <Cell><Data ss:Type="String">dst_port</Data></Cell>
+    <Cell><Data ss:Type="String">tproto</Data></Cell>
+    <Cell><Data ss:Type="String">sha-1</Data></Cell>
+    <Cell><Data ss:Type="String">sha-256</Data></Cell>
+    <Cell><Data ss:Type="String">md5</Data></Cell>
+    <Cell><Data ss:Type="String">size</Data></Cell>
+    <Cell><Data ss:Type="String">entropy</Data></Cell>
+    <Cell><Data ss:Type="String">rule</Data></Cell>
+    <Cell><Data ss:Type="String">total_fired</Data></Cell>
+    <Cell><Data ss:Type="String">offset</Data></Cell>
+    <Cell><Data ss:Type="String">length</Data></Cell>
+    <Cell><Data ss:Type="String">mdata</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139711355396</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:31.355396 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49696</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3333</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">24bf0bd35c4e0789a2de3ebed7b46923cb76ccd8</Data></Cell>
+    <Cell><Data ss:Type="String">3984d4bcce6e9d0175b5adfad88565ec053a5b950f4729165f924dd864f9fe83</Data></Cell>
+    <Cell><Data ss:Type="String">9fa35bf6443acd0bc7b87e58de902915</Data></Cell>
+    <Cell><Data ss:Type="Number">499</Data></Cell>
+    <Cell><Data ss:Type="Number">7.541222</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139712180819</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:32.180819 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">33dba31a2e583fc8307f5868f752be3e86271078</Data></Cell>
+    <Cell><Data ss:Type="String">1c025d57fda96b89ca1ecf6f9dc84a52cf9cf006a75b5806295bf87ebddd2e21</Data></Cell>
+    <Cell><Data ss:Type="String">37059f0c6dbba9b166424929d5275d7e</Data></Cell>
+    <Cell><Data ss:Type="Number">154</Data></Cell>
+    <Cell><Data ss:Type="Number">6.464521</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139712183279</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:32.183279 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49697</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">ca07420b92d7b54224e7270fdc873be07ae8a0d7</Data></Cell>
+    <Cell><Data ss:Type="String">fa8cb61c73d3ebcf25e898d10346ecd1431cc925206619f0be631018d86e39d9</Data></Cell>
+    <Cell><Data ss:Type="String">acf6471592e149477b75facb57675507</Data></Cell>
+    <Cell><Data ss:Type="Number">159</Data></Cell>
+    <Cell><Data ss:Type="Number">6.465285</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139712183661</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:32.183661 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">133b745040b8289311fbc6299b0c8f80185c5c7d</Data></Cell>
+    <Cell><Data ss:Type="String">6adb7693546c0f96097a2b668f3b21ed1265b52b50f849074eac4a34a09275b2</Data></Cell>
+    <Cell><Data ss:Type="String">5e68bb125f5452a24aaadc0fe5586e36</Data></Cell>
+    <Cell><Data ss:Type="Number">154</Data></Cell>
+    <Cell><Data ss:Type="Number">6.513286</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139712295001</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:32.295001 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49697</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">34c9f1f9ddeee51967bd8f3e4e3f5a6b90420cc7</Data></Cell>
+    <Cell><Data ss:Type="String">32dc21ecb536cc8e992f17e54d0d777af5e8f5972b758736cf04e41852f5f932</Data></Cell>
+    <Cell><Data ss:Type="String">343f3feb5cd26cd99ee8bfb1a3fb0c3f</Data></Cell>
+    <Cell><Data ss:Type="Number">183</Data></Cell>
+    <Cell><Data ss:Type="Number">6.687270</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139712296057</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:32.296057 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49697</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">d02350207352931f15f6512c7467ec8c341cd03e</Data></Cell>
+    <Cell><Data ss:Type="String">f256d031e741d747b93217b7b63eefe02d54f71a2688685e852ced6a929469f7</Data></Cell>
+    <Cell><Data ss:Type="String">d1fc661c9acf59b5f823325b7344a5d2</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="Number">5.580960</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139712297073</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:32.297073 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49697</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">03cf721cb3f3f82affa8cf0372e21bbd72e683ec</Data></Cell>
+    <Cell><Data ss:Type="String">bb504a2e86375ea08b45fb683df7b79b7d0614fbdd04e974f7f8c5ee44be8eef</Data></Cell>
+    <Cell><Data ss:Type="String">67bb819e7fc3af96b9ea439789c58691</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="Number">5.554986</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139712298913</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:32.298913 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">a19fb2cbfc089d5707bf16c21dea70e4580ec62b</Data></Cell>
+    <Cell><Data ss:Type="String">eb64f8d93f82335b218975a9e252829863883b0c4b9cbd75fac8702b7f3fe935</Data></Cell>
+    <Cell><Data ss:Type="String">6747b05d2c7242ffb74bc7931e037438</Data></Cell>
+    <Cell><Data ss:Type="Number">206</Data></Cell>
+    <Cell><Data ss:Type="Number">6.898547</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139713239924</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:33.239924 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">8ba87d974e9199c6b070285cc766961f3b1eb927</Data></Cell>
+    <Cell><Data ss:Type="String">1c8fbd26b918fd47e1cc163faf111ae5093353039326b6abc8d36605a635afe5</Data></Cell>
+    <Cell><Data ss:Type="String">e2c901d21d191928e50744bebe831255</Data></Cell>
+    <Cell><Data ss:Type="Number">201</Data></Cell>
+    <Cell><Data ss:Type="Number">6.824295</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139713399125</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:33.399125 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">7b3c9ad2ad39b6cfa8277b4df09e99769dbeda50</Data></Cell>
+    <Cell><Data ss:Type="String">850787338aa9152b297a40e192c8bbc6dc5d4094bab46013bae5b752c09d67c7</Data></Cell>
+    <Cell><Data ss:Type="String">89ae7950f3c593d8abf6f6aa9838aabf</Data></Cell>
+    <Cell><Data ss:Type="Number">210</Data></Cell>
+    <Cell><Data ss:Type="Number">6.929256</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139713432588</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:33.432588 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">78cea4c8e7f466253cd5bf28d85635b4b62f8f58</Data></Cell>
+    <Cell><Data ss:Type="String">0e6e7f8610fa91b6ef78089b582d8f477aae951f6a45ecf62d14595ace7c2a38</Data></Cell>
+    <Cell><Data ss:Type="String">efd0e0f25a3896f2b58f872b79488f9b</Data></Cell>
+    <Cell><Data ss:Type="Number">208</Data></Cell>
+    <Cell><Data ss:Type="Number">6.688750</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139713434250</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:33.434250 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">e9f95ed14c5e198c71b271db2e9438fbaa611cda</Data></Cell>
+    <Cell><Data ss:Type="String">212247838c9ecaece1e9d8e95277525d0cf8380db333a6150ee0e5bf68a62983</Data></Cell>
+    <Cell><Data ss:Type="String">f768af3a41cb34285de01a44e4a433b5</Data></Cell>
+    <Cell><Data ss:Type="Number">183</Data></Cell>
+    <Cell><Data ss:Type="Number">6.698199</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139713443265</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:33.443265 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">f2d6adb87be42a4438354f829e5b2fd7ccd5ac7b</Data></Cell>
+    <Cell><Data ss:Type="String">2a95fc83b108fbe3d4b70ee8de8843dd533959131a1e9d778fa47bf3be38f11f</Data></Cell>
+    <Cell><Data ss:Type="String">468f31736803f4186e368e8f8543db52</Data></Cell>
+    <Cell><Data ss:Type="Number">256</Data></Cell>
+    <Cell><Data ss:Type="Number">6.998762</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139713609433</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:33.609433 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">f3b96e985daa56182473c2e07adbbf43296285b6</Data></Cell>
+    <Cell><Data ss:Type="String">230720c8a5bd4e3fc827251a0501446bb853757e8936e4d93a9f3c2a756f4c63</Data></Cell>
+    <Cell><Data ss:Type="String">5d362ecc186ae9f0b6d1f03ca4916967</Data></Cell>
+    <Cell><Data ss:Type="Number">256</Data></Cell>
+    <Cell><Data ss:Type="Number">7.000315</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">113</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139713617924</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:33.617924 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">b2ff452ae3430deadbe7d1be8748f75891fcfa96</Data></Cell>
+    <Cell><Data ss:Type="String">32b71897ba305e4b7059c484e73e491e2195f395c5c7e8147ef4c4285b2e9c3c</Data></Cell>
+    <Cell><Data ss:Type="String">587c1dd678a0090a0d5ba119b05004b9</Data></Cell>
+    <Cell><Data ss:Type="Number">296</Data></Cell>
+    <Cell><Data ss:Type="Number">7.207044</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">122</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139713620429</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:33.620429 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49698</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">dab77f1a30ede0d282a4f8c6af4b92c4ef8b0bb3</Data></Cell>
+    <Cell><Data ss:Type="String">71fe1461a8553d90f363368925db19baf0b481d93529c67dec9b632821c9a527</Data></Cell>
+    <Cell><Data ss:Type="String">bd0fc28c92df60015a26469b25d2cd04</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="Number">5.519208</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">131</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139714705661</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:34.705661 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">2719c0c0ac39f973cea8b0d07b05ecdc12af2e05</Data></Cell>
+    <Cell><Data ss:Type="String">6a16037599daa4a4c139366cb41118a7235ec9cb9af01103f34fa1c9073f2677</Data></Cell>
+    <Cell><Data ss:Type="String">617c2fd9448cc35cbc4c54ac483ed9cf</Data></Cell>
+    <Cell><Data ss:Type="Number">155</Data></Cell>
+    <Cell><Data ss:Type="Number">6.429940</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">134</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139714991870</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:34.991870 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">377e9191ed5db2bb704a4e90ab78a2149a71eecb</Data></Cell>
+    <Cell><Data ss:Type="String">ab5670fc1d6b56069c0a565f035b3f45c0ffd63c46d8970bc2ee3cd6c0dd9ea1</Data></Cell>
+    <Cell><Data ss:Type="String">f7638cca877f9490ea9735479a4b9b2f</Data></Cell>
+    <Cell><Data ss:Type="Number">222</Data></Cell>
+    <Cell><Data ss:Type="Number">6.917739</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">137</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139715863767</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:35.863767 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">e9f97b166fd8d944eded6acebb87af5a6b673799</Data></Cell>
+    <Cell><Data ss:Type="String">ca5e05daeae51a808fa0c2aff68204da002a69873237b20cb56c7f3e4ce7bdc5</Data></Cell>
+    <Cell><Data ss:Type="String">9ee69c2addd5b84765cb5a2e7bab1997</Data></Cell>
+    <Cell><Data ss:Type="Number">355</Data></Cell>
+    <Cell><Data ss:Type="Number">7.309717</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">140</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139716851601</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:36.851601 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">a4d9006aa66cf5537c2a6cbf216a9143903a6d9f</Data></Cell>
+    <Cell><Data ss:Type="String">023130a3f27af8d388e1be5e68083166ed237bd3379b4d956a56980f27a0d03c</Data></Cell>
+    <Cell><Data ss:Type="String">a1be65190d2e886436d76b30c28cc3c2</Data></Cell>
+    <Cell><Data ss:Type="Number">203</Data></Cell>
+    <Cell><Data ss:Type="Number">6.806432</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">143</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139718039763</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:38.39763 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">6d57c5a35757556e8033d9a3a4c7a75af39ae41c</Data></Cell>
+    <Cell><Data ss:Type="String">76372cfe55254497e2dc73dbdb492aa04fd94aac29954ecb41f1816bfd5c4c40</Data></Cell>
+    <Cell><Data ss:Type="String">57b3e6d6aa2ae832d07093020afb73d4</Data></Cell>
+    <Cell><Data ss:Type="Number">197</Data></Cell>
+    <Cell><Data ss:Type="Number">6.699704</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">146</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139718805197</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:38.805197 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">48d437b385d2aed373244b3f354ac31016b4d7ae</Data></Cell>
+    <Cell><Data ss:Type="String">c84582aeeeb65d0f794189b17bae526613e30f92dc648e463052cc3ccea9bfcf</Data></Cell>
+    <Cell><Data ss:Type="String">fd9374cde992ef9505bdb22666afa76e</Data></Cell>
+    <Cell><Data ss:Type="Number">147</Data></Cell>
+    <Cell><Data ss:Type="Number">6.418082</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">148</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139718806556</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:38.806556 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">e9ea421ca8955a30a58af7a819317d36486c58ae</Data></Cell>
+    <Cell><Data ss:Type="String">26bc08bf87da1b0f6e83443b8883709aa934d29670cbd374d1c7fcb6a7244a87</Data></Cell>
+    <Cell><Data ss:Type="String">395558f962aa7af945481cc61e7c6372</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="Number">5.441286</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">150</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139718807832</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:38.807832 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">0b6e9caf9eaaa541fb4b71625bfc8ec6c1544ead</Data></Cell>
+    <Cell><Data ss:Type="String">e84494d7db5244a2319764b807965c382f79448ac304d7fd4d2da536a4589e7e</Data></Cell>
+    <Cell><Data ss:Type="String">92a6459f765524a5935843f8b433b56c</Data></Cell>
+    <Cell><Data ss:Type="Number">147</Data></Cell>
+    <Cell><Data ss:Type="Number">6.390871</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">152</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139718809049</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:08:38.809049 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49699</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3334</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">555187ece2bdb87666bad1f43a4f6c4bc09955fe</Data></Cell>
+    <Cell><Data ss:Type="String">bcd1063f2a6c9a4840c654c386d662857ef742df3ff0ef5750448c793ab950e1</Data></Cell>
+    <Cell><Data ss:Type="String">e1fb73a3509b886f4385a250e906a919</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="Number">5.431483</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">163</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139754176931</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:09:14.176931 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49696</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3333</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">3b56bfcccdda16b23af38e556d190312f362aa90</Data></Cell>
+    <Cell><Data ss:Type="String">a3f071dae4dc4d55781dc51efbe945a1e97769fe660fa224d734a9406419eef1</Data></Cell>
+    <Cell><Data ss:Type="String">b7115349cccd3ec43875e049bc2f503b</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="Number">5.519208</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">166</Data></Cell>
+    <Cell><Data ss:Type="Number">1767139755708941</Data></Cell>
+    <Cell><Data ss:Type="String">2025-12-31 00:09:15.708941 UTC</Data></Cell>
+    <Cell><Data ss:Type="String">IP4</Data></Cell>
+    <Cell><Data ss:Type="String">10.0.90.9</Data></Cell>
+    <Cell><Data ss:Type="Number">49696</Data></Cell>
+    <Cell><Data ss:Type="String">151.242.122.227</Data></Cell>
+    <Cell><Data ss:Type="Number">3333</Data></Cell>
+    <Cell><Data ss:Type="String">TCP</Data></Cell>
+    <Cell><Data ss:Type="String">a0614adb5515401955b1512ae30d76b613d2db1c</Data></Cell>
+    <Cell><Data ss:Type="String">c181768a6870de7edbb11d53325589db8656eccb9050dc39f302f5f86ef7b3a9</Data></Cell>
+    <Cell><Data ss:Type="String">0b8fe5b861498619757eddc3edbc7cff</Data></Cell>
+    <Cell><Data ss:Type="Number">343</Data></Cell>
+    <Cell><Data ss:Type="Number">7.308246</Data></Cell>
+    <Cell><Data ss:Type="String">snappyclient_malware_encrypted_pkt</Data></Cell>
+    <Cell><Data ss:Type="Number">0</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
