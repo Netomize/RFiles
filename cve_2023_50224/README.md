@@ -1,4 +1,4 @@
-This folder contains the PacketSmith [Yara-X detection rule](https://github.com/Netomize/RFiles/blob/main/cve_2023_50224/tp_link_wr841n_cve_2023_50224.yar) and a [pcap](https://github.com/Netomize/RFiles/blob/main/cve_2023_50224/tp_link_wr841n_cve_2023_50224_get_request.pcap) of the vulnerability CVE-2023-50224 in the TP-Link TL-WR841N device.
+This folder contains the PacketSmith [Yara-X detection rule](https://github.com/Netomize/RFiles/blob/main/cve_2023_50224/tp_link_wr841n_cve_2023_50224.yar) and a [pcap](https://github.com/Netomize/RFiles/blob/main/cve_2023_50224/tp_link_wr841n_cve_2023_50224_get_request.pcap) for the CVE-2023-50224 vulnerability in the TP-Link TL-WR841N devices.
 
 This vulnerability was used by the APT28 - a GRU threat actor to compromise TP-Link TL-WR841N devices and perform malicious DNS hijacking operations.
 
