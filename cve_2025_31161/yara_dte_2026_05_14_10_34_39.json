@@ -1,0 +1,128 @@
+{
+    "pcap": {
+        "filename": "crushftp_cve_2025_31161_auth_bypass_rce_traffic.pcap"
+    },
+    "frames": {
+        "total": 2,
+        "frames": [
+            {
+                "id": 25,
+                "raw_ts": 1778606937106399,
+                "ts": "2026-05-12 17:28:57.106399 UTC",
+                "ip_ver": "IP4",
+                "src_ip": "192.168.60.128",
+                "src_port": "43476",
+                "dst_ip": "192.168.60.129",
+                "dst_port": "9090",
+                "tproto": "TCP",
+                "result": {
+                    "raw": {
+                        "sha-1": "f2b60e6b69e89b2e16d64e8e93f6910e0c25b616",
+                        "sha-256": "e5b4b915416eb6f6e8d9cf8d0ecda7f23308ee0292f7584c2fa55266809ba01d",
+                        "md5": "981223cd5798a7a0914e1c057f508736",
+                        "size": 447,
+                        "entropy": 5.9695418,
+                        "total_rules_fired": 1,
+                        "rules": [
+                            {
+                                "name": "crushftp_rce_vulnerability_post_req_cve_2025_31161",
+                                "total": 4,
+                                "offset": [
+                                    66,
+                                    235,
+                                    235,
+                                    317
+                                ],
+                                "length": [
+                                    28,
+                                    26,
+                                    68,
+                                    55
+                                ],
+                                "mdata": [
+                                    "POST /WebInterface/function/",
+                                    "\\nCookie: currentAuth=31If;",
+                                    "\\nCookie: currentAuth=31If; CrushAuth=1744110584619_p38s3LvsGAfk4GvVu",
+                                    "\\nAuthorization: AWS4-HMAC-SHA256 Credential=crushadmin/"
+                                ],
+                                "clogs": []
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "id": 30,
+                "raw_ts": 1778606937364862,
+                "ts": "2026-05-12 17:28:57.364862 UTC",
+                "ip_ver": "IP4",
+                "src_ip": "192.168.60.129",
+                "src_port": "9090",
+                "dst_ip": "192.168.60.128",
+                "dst_port": "43476",
+                "tproto": "TCP",
+                "result": {
+                    "raw": {
+                        "sha-1": "8bea15ccd4e60f0683532bcf3fe55001cb651682",
+                        "sha-256": "de26054ee67d2ca3622d9737db576916cb46712f201ab81fa92eb22ddf9ac438",
+                        "md5": "9ccf1929bf4a796528f59c5008bdbab7",
+                        "size": 534,
+                        "entropy": 5.8431501,
+                        "total_rules_fired": 1,
+                        "rules": [
+                            {
+                                "name": "crushftp_successful_rce_exploitation_response_cve_2025_31161",
+                                "total": 2,
+                                "offset": [
+                                    183,
+                                    420
+                                ],
+                                "length": [
+                                    29,
+                                    37
+                                ],
+                                "mdata": [
+                                    "\\nServer: CrushFTP HTTP Server",
+                                    "<response_status>OK</response_status>"
+                                ],
+                                "clogs": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "ICMPv4": {
+        "total": 0,
+        "ICMPv4": []
+    },
+    "ICMPv6": {
+        "total": 0,
+        "ICMPv6": []
+    },
+    "TCP-IPv4": {
+        "total": 0,
+        "TCP-IPv4": []
+    },
+    "TCP-IPv6": {
+        "total": 0,
+        "TCP-IPv6": []
+    },
+    "UDP-IPv4": {
+        "total": 0,
+        "UDP-IPv4": []
+    },
+    "UDP-IPv6": {
+        "total": 0,
+        "UDP-IPv6": []
+    },
+    "TCP_Packets": {
+        "total": 0,
+        "TCP_Packets": []
+    },
+    "UDP_Packets": {
+        "total": 0,
+        "UDP_Packets": []
+    }
+}
