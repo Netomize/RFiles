@@ -10,7 +10,7 @@ rule tuxbot_malware_tcp_checkin_magic_dword
 	  sha1        = "12c167b69ad8089299fa342bdc22f99bebea7c01"
 	  author      = "Netomize"
 	  date        = "07/16/2026"
-	  flow_state   = "set,magic_bytes,noalert"
+	  flow_state  = "set,magic_bytes,noalert"
 
 	condition:
 
