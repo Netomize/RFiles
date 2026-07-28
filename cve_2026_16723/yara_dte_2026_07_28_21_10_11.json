@@ -1,6 +1,6 @@
 {
     "pcap": {
-        "filename": "cve_2026_16723_successful_exploitation.pcap"
+        "filename": "cve_2026_16723_deserialization_rce.pcap"
     },
     "frames": {
         "total": 1,
