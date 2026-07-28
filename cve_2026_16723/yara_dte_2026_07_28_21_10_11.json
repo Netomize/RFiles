@@ -1,0 +1,80 @@
+{
+    "pcap": {
+        "filename": "cve_2026_16723_successful_exploitation.pcap"
+    },
+    "frames": {
+        "total": 1,
+        "frames": [
+            {
+                "id": 25,
+                "raw_ts": 1785252442932651,
+                "ts": "2026-07-28 15:27:22.932651 UTC",
+                "ip_ver": "IP4",
+                "src_ip": "127.0.0.1",
+                "src_port": "41378",
+                "dst_ip": "127.0.0.1",
+                "dst_port": "8080",
+                "tproto": "TCP",
+                "result": {
+                    "raw": {
+                        "sha-1": "a8621d64a1330884db3e5f644ce416584bdb80eb",
+                        "sha-256": "bbd11794c04bdec5bc10c466e26b33f90c469b8e683a72c5bfb7053d69e6f9c1",
+                        "md5": "f46ac92b33aee53394fb29ffa7e4db0f",
+                        "size": 110,
+                        "entropy": 5.0771257,
+                        "total_rules_fired": 1,
+                        "mdata_type": "str",
+                        "rules": [
+                            {
+                                "name": "fastjson_rce_execute_post_request_cve_2026_16723",
+                                "total": 1,
+                                "offset": [
+                                    67
+                                ],
+                                "length": [
+                                    34
+                                ],
+                                "mdata": [
+                                    "\\\"@type\\\": \\\"jar:file:/proc/self/fd/1"
+                                ],
+                                "clogs": []
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "ICMPv4": {
+        "total": 0,
+        "ICMPv4": []
+    },
+    "ICMPv6": {
+        "total": 0,
+        "ICMPv6": []
+    },
+    "TCP-IPv4": {
+        "total": 0,
+        "TCP-IPv4": []
+    },
+    "TCP-IPv6": {
+        "total": 0,
+        "TCP-IPv6": []
+    },
+    "UDP-IPv4": {
+        "total": 0,
+        "UDP-IPv4": []
+    },
+    "UDP-IPv6": {
+        "total": 0,
+        "UDP-IPv6": []
+    },
+    "TCP_Packets": {
+        "total": 0,
+        "TCP_Packets": []
+    },
+    "UDP_Packets": {
+        "total": 0,
+        "UDP_Packets": []
+    }
+}
