@@ -6,8 +6,8 @@ rule icmp_ghost_implant_icmp_echo_request_c2_detection
 	
 	  description = "Detect ICMP-Ghost ICMP Echo Request C2 Traffic"
 	  reference   = """https://github.com/JM00NJ/ICMP-Ghost-A-Fileless-x64-Assembly-C2-Agent
-					           https://netacoding.com/posts/icmp-ghost/
-                     https://blog.netomize.ca/detect-icmp-ghost-implant-icmp-and-dns-tunnelling-c2-traffic-using-packetsmith-yara-x-icmp-detection-modules
+					   https://netacoding.com/posts/icmp-ghost/
+                       https://blog.netomize.ca/detect-icmp-ghost-implant-icmp-and-dns-tunnelling-c2-traffic-using-packetsmith-yara-x-icmp-detection-modules
 	                """
 	  filter      = "Frames (frames:)"
 	  author      = "Netomize"
@@ -47,8 +47,8 @@ rule icmp_ghost_implant_icmp_echo_reply_ctrl_cmd_c2_detection
 	
 	  description = "Detect ICMP-Ghost ICMP Echo Reply C2 control command traffic"
 	  reference   = """https://github.com/JM00NJ/ICMP-Ghost-A-Fileless-x64-Assembly-C2-Agent
-					           https://netacoding.com/posts/icmp-ghost/
-                     https://blog.netomize.ca/detect-icmp-ghost-implant-icmp-and-dns-tunnelling-c2-traffic-using-packetsmith-yara-x-icmp-detection-modules
+					   https://netacoding.com/posts/icmp-ghost/
+                       https://blog.netomize.ca/detect-icmp-ghost-implant-icmp-and-dns-tunnelling-c2-traffic-using-packetsmith-yara-x-icmp-detection-modules
 	                """
 	  filter      = "Frames (frames:)"
 	  author      = "Netomize"
@@ -88,8 +88,8 @@ rule icmp_ghost_implant_dns_query_c2_detection
 	
       description = "Detect ICMP-Ghost DNS Query C2 control command traffic"
 	    reference   = """https://github.com/JM00NJ/ICMP-Ghost-A-Fileless-x64-Assembly-C2-Agent
-					             https://netacoding.com/posts/icmp-ghost/
-                       https://blog.netomize.ca/detect-icmp-ghost-implant-icmp-and-dns-tunnelling-c2-traffic-using-packetsmith-yara-x-icmp-detection-modules
+					     https://netacoding.com/posts/icmp-ghost/
+                         https://blog.netomize.ca/detect-icmp-ghost-implant-icmp-and-dns-tunnelling-c2-traffic-using-packetsmith-yara-x-icmp-detection-modules
 	                  """	  
       filter      = "Frames (frames:)"
       author      = "Netomize"
@@ -148,8 +148,8 @@ rule icmp_ghost_implant_dns_udp_query_c2_detection
 	
       description = "Detect ICMP-Ghost DNS UDP Query C2 control command traffic"
 	  reference   = """https://github.com/JM00NJ/ICMP-Ghost-A-Fileless-x64-Assembly-C2-Agent
-					           https://netacoding.com/posts/icmp-ghost/
-                     https://blog.netomize.ca/detect-icmp-ghost-implant-icmp-and-dns-tunnelling-c2-traffic-using-packetsmith-yara-x-icmp-detection-modules
+					   https://netacoding.com/posts/icmp-ghost/
+                       https://blog.netomize.ca/detect-icmp-ghost-implant-icmp-and-dns-tunnelling-c2-traffic-using-packetsmith-yara-x-icmp-detection-modules
 	                """	  
       filter      = "Frames (frames:)"
       author      = "Netomize"
